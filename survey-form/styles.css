@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://media.gettyimages.com/id/171152719/photo/old-books-in-a-library.jpg?s=612x612&w=gi&k=20&c=Z3R9DwkoDd6j-AlNcCwB8x1UoCAXV1pVmdSiWtPLEgA=);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align:center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  p {  font-size: 15px;
+  font-style: italic;
+  }
+  
+  .menu {
+    width: 80%;background-color: rgb(199, 236, 199);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  label, legend {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  #bio {
+    margin-top: 10px;
+  }
+
+  #submit {
+    display: block;
+    padding: 10px 30px;
+    margin: 50px auto;
+  }

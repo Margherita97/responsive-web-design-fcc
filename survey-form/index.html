@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body> 
+  <div class="menu">
+    <div class="title">
+    <h1 id="title"><em>Rate A Book</em> Registration Form</h1>
+    <p id="description">Sign up to rate your favorite books!</p>
+    </div>
+    <div class="main">
+    <form id="survey-form">
+      <label id="name-label"> Enter your first name: <input id="name" type="text" name="name" placeholder="Enter your name" required /></label>
+       <label id="email-label"> Enter your email: <input id="email" type="email" name="email" placeholder="Enter your email" required /></label>
+      <label id="number-label"> Enter your age (optional): <input id="number" type="number" min="16" max="120" name="number" placeholder="age" required /></label>
+      <label for="dropdown"> How many books do you read per year?
+        <select id="dropdown" name="number-of-books">
+          <option value="">select one</option>
+          <option value="1"> < 5 </option>
+          <option value="2"> from 5 to 10</option>
+          <option value="3"> from 10 to 15</option>
+          <option value="4"> > 15 </option>
+        </select>
+      </label>
+      <legend> Preferred reading modality </legend>
+      <label for="printed"><input id="printed" type="radio" name="reading-modality" value="printed" checked /> Printed book </label>
+      <label for="ebook"><input id="ebook" type="radio" name="reading-modality" value="ebook" /> Ebook </label>
+      <label for="audio"><input id="audio" type="radio" name="reading-modality" value="audio" /> Audiobook </label>
+      <legend> Favorite genres: </legend>
+      <label for="fantasy"><input id="fantasy" type="checkbox" name="genre" value="fantasy" checked /> Fantasy </label>
+      <label for="mystery"><input id="mystery" type="checkbox" name="genre" value="mystery" /> Mystery </label>
+      <label for="science-fiction"><input id="science-fiction" type="checkbox" name="genre" value="science-fiction" /> Science fiction </label>
+      <label for="poetry"><input id="poetry" type="checkbox" name="genre" value="poetry" /> Poetry </label>
+      <label for="thriller"><input id="thriller" type="checkbox" name="genre" value="thriller" /> Thriller </label>
+      <label> Tell us more about yourself:
+        <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Something about you: "></textarea>
+      </lable>
+      <input id="submit" type="submit" value="Submit" />
+      </div>
+    </form>
+    <div class="menu">
+  </body>
+</html>
